@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(to right, #c53fdc, #9800b3, #c478d1, #9317a9);
+  font-family: "Commissioner", sans-serif;
+
+  ul {
+    padding: 0;
+    margin-left: 20px;
+    list-style: none;
+    text-align: left;
+
+    li {
+      padding: 7px 0px;
+      font-size: 1.2rem;
+
+      input {
+        height: 17px;
+        width: 17px;
+      }
+    }
+
+    .heading {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+  }
+}
+
+.container {
+  align-self: center;
+  width: 60%;
+  background-color: whitesmoke;
+  min-width: 700px;
+  margin-top: 80px;
+  display: flex;
+  .left-container {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid #83818159;
+  }
+  .right-container {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid #83818159;
+
+    .item {
+      border: 2px solid #d3d3d3bf;
+      width: 90%;
+      padding-left: 10px;
+      display: flex;
+      background: #d3d3d3bf;
+      justify-content: space-between;
+      border-radius: 10px;
+      margin: 2% 0%;
+
+      i {
+        padding: 1% 2%;
+        cursor: pointer;
+      }
+    }
+  }
+}
