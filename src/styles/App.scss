@@ -32,17 +32,23 @@
 .container {
   align-self: center;
   width: 60%;
-  background-color: whitesmoke;
+
   min-width: 700px;
   margin-top: 80px;
   display: flex;
+
   .left-container {
     width: 50%;
+    margin-right: 1%;
     border-collapse: collapse;
+    background-color: whitesmoke;
     border: 1px solid #83818159;
+    border-radius: 10px;
   }
   .right-container {
+    border-radius: 10px;
     width: 50%;
+    background-color: whitesmoke;
     border-collapse: collapse;
     border: 1px solid #83818159;
 
